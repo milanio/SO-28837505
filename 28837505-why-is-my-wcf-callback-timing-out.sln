@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleServer", "CApp\ConsoleServer.csproj", "{089CFBF5-1149-4918-9912-11EB02978B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{3658C34A-A566-4100-8F06-F3C58C55AF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfClient", "WpfClient\WpfClient.csproj", "{A0203F44-2630-43FB-A87A-0B3BF91DE6D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089CFBF5-1149-4918-9912-11EB02978B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089CFBF5-1149-4918-9912-11EB02978B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089CFBF5-1149-4918-9912-11EB02978B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089CFBF5-1149-4918-9912-11EB02978B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3658C34A-A566-4100-8F06-F3C58C55AF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3658C34A-A566-4100-8F06-F3C58C55AF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3658C34A-A566-4100-8F06-F3C58C55AF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3658C34A-A566-4100-8F06-F3C58C55AF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0203F44-2630-43FB-A87A-0B3BF91DE6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0203F44-2630-43FB-A87A-0B3BF91DE6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0203F44-2630-43FB-A87A-0B3BF91DE6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0203F44-2630-43FB-A87A-0B3BF91DE6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

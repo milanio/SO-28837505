@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f72eb16-2f63-4109-ba89-2050f860499d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8089/TestService/SchedulerService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="92eca4dd-908a-4fc9-a006-edb713d2437e" SourceId="1" SourceUrl="http://localhost:8089/TestService/SchedulerService/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="524ced11-c352-4fce-aa96-aad8692b5281" SourceId="1" SourceUrl="http://localhost:8089/TestService/SchedulerService/?xsd=xsd1" />
+    <MetadataFile FileName="SchedulerService.wsdl" MetadataType="Wsdl" ID="c8a1951b-b2ce-47f2-ba5d-cab26872b33b" SourceId="1" SourceUrl="http://localhost:8089/TestService/SchedulerService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="d75f6de5-59ff-4e1d-b2e5-88a5091feb34" SourceId="1" SourceUrl="http://localhost:8089/TestService/SchedulerService/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="2021d32b-5bcf-44e1-9a0a-2b789acf3686" SourceId="1" SourceUrl="http://localhost:8089/TestService/SchedulerService/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

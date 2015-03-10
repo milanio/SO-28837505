@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Sync Stop - Deadlock" HorizontalAlignment="Left" Margin="29,78,0,0" VerticalAlignment="Top" Width="162" Click="ButtonSyncStop_Click"/>
+        <Button Content="Async / Await Stop " HorizontalAlignment="Left" Margin="29,27,0,0" VerticalAlignment="Top" Width="162" Click="ButtonAsyncStop_Click"/>
+        <Button Content="Stop with Task" HorizontalAlignment="Left" Margin="29,53,0,0" VerticalAlignment="Top" Width="162" Click="ButtonTask_Click"/>
+        <TextBox x:Name="TbLog" Margin="10,127,10,10" TextWrapping="Wrap" Text="No messages...." AcceptsReturn="True" AcceptsTab="True" />
+
+    </Grid>
+</Window>
